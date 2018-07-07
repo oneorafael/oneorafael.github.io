@@ -1,0 +1,35 @@
+
+html,head,body{
+	height: 100%;
+	background: white;
+	padding-bottom: 100px;
+
+}
+
+#Banner{
+	margin-top: 30px;
+}
+
+.customTittle{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 38px;
+	margin-top: 30px;
+	color: #707070;
+}
+.customTittle2{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-top: -5px;
+	font-size: 18px;
+	color: #707070;
+}
+
+p{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+h3{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

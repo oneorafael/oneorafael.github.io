@@ -25,6 +25,28 @@ html,head,body{
 	color: #707070;
 }
 
+.box{
+  width: 300px;
+  height: 300px;
+  border: 5px solid #F4EFEF;
+  border-radius: 15px;
+  margin: 45px auto;
+  box-shadow: 0px 3px 6px 0.3px #F4EFEF;
+
+}
+
+.box:hover{
+  width: 350px;
+  transition:1s;
+}
+
+.box h1{
+  text-align: center;
+  margin: 120px auto;
+  font-size: 20px;
+
+}
+
 p{
 	margin-top: 15px;
 	margin-bottom: 30px;

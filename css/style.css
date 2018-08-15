@@ -47,6 +47,16 @@ html,head,body{
 
 }
 
+a:link {
+    text-decoration: none;
+		color: black;
+}
+
+a:hover{
+	  text-decoration: none;
+		color: #708090;
+}
+
 p{
 	margin-top: 15px;
 	margin-bottom: 30px;

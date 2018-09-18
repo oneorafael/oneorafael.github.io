@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <!-- Required meta tags -->
@@ -7,49 +7,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <title>Rafael Oliveira - Inicio</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <section class="banner-header">
     <div class="container">
-      <a class="navbar-brand" href="#">Rafael Oliveira</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Quem Sou</a>
-          <a class="nav-item nav-link" href="#">Portfólio</a>
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 class="text-center">Rafael Oliveira</h2>
+          <h4 class="lead text-center">- iOS Developer</h4>
         </div>
       </div>
     </div>
-  </nav>
-  <!--/navbar-->
-
-  <section id="Banner">
-    <img class="rounded-circle mx-auto d-block" width="300px;" height="300px;" src="https://i.imgur.com/ZBO5kDq.png">
-    <h4 class="customTittle">Rafael Oliveira</h4>
-    <h4 class="customTittle2">-Desenvolvedor iOS & Web</h4>
   </section>
 
-  <!--boxes-->
-  <section>
+
+  <section class="box-content">
     <div class="container">
       <div class="row">
         <div class="box">
-          <a href="#">
+          <a href="bio.html">
             <h1>Quem Sou</h1>
           </a>
         </div>
         </a>
         <div class="box">
-          <a href="#">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal">
             <h1>Portfólio</h1>
           </a>
         </div>
@@ -61,16 +50,73 @@
       </div>
     </div>
   </section>
-  <!--/boxes-->
+
+  <section class="banner-x"></section>
+
+  <section class="resume-preview">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h3 class="text-center">Quem Sou</h3>
+        </div>
+        <div class="col-xl-4">
+          <img class="rounded-circle mx-auto d-block" width="300px;" height="300px;" src="https://i.imgur.com/ZBO5kDq.png">
+        </div>
+
+        <div class="col-xl-6">
+          <p>Morbi consequat nulla lobortis velit porta consectetur. Sed et rhoncus mi. Etiam scelerisque purus tempus el it varius, id tempor est dapibus.Morbi consequat nulla lobortis velit porta consectetur.id tempor est dapibus.</p>
+          <br>
+          <a href="https://www.instagram.com/oneorafael/" class="fa fa-instagram"></a>
+          <a href="https://www.twitter.com/oneorafael" class="fa fa-twitter"></a>
+          <a href="https://www.github.com/oneorafael" class="fa fa-github"></a>
+          <a href="https://www.linkedin.com/in/oneorafael" class="fa fa-linkedin"></a>
+        </div>
+
+        <div class="col-xl-2">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--MODAL-->
+  <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Área em reforma</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          A area de portfólio está sendo remodelada. Volte em breve!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <p class="text-center">Rafael Oliveira - 2018 Todos os direitos reservados</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

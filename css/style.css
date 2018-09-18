@@ -1,28 +1,18 @@
-
-html,head,body{
-	height: 100%;
-	background: white;
-	padding-bottom: 100px;
-
+.banner-header{
+  background-image: url(https://i.imgur.com/eCBFcIe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #FFFFFF;
+  padding-top: 320px;
+  padding-bottom: 300px;
 }
 
-#Banner{
-	margin-top: 30px;
-}
-
-.customTittle{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-size: 38px;
-	margin-top: 30px;
-	color: #707070;
-}
-.customTittle2{
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	margin-top: -5px;
-	font-size: 18px;
-	color: #707070;
+/*box-area*/
+.box-content{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .box{
@@ -57,11 +47,80 @@ a:hover{
 		color: #708090;
 }
 
-p{
-	margin-top: 15px;
-	margin-bottom: 30px;
+a:visited{
+  text-decoration: none;
+  color: black;
 }
-h3{
-	padding-top: 30px;
-	padding-bottom: 30px;
+
+.banner-x{
+  background-image: url(https://i.imgur.com/sLmeymv.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.resume-preview{
+  padding-top: 50px;
+  padding-bottom: 115px;
+}
+.resume-preview h3{
+  padding-bottom: 40px;
+}
+
+.resume-preview p{
+  padding-top: 60px;
+}
+
+.fa{
+font-size: 33px;
+width: 80px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+color: #708090;
+}
+
+.footer{
+  padding-top:10px;
+  background-color: #272727;
+  color: #FFF;
+  font-size: 14px;
+
+}
+
+
+.bioarea{
+  padding-top: 20px;
+  padding-bottom: 70px;
+  width: 100%;
+  height: 100%;
+}
+
+.bioarea h1{
+  padding-bottom: 45px;
+}
+
+.resume-text-area{
+  padding-top: 20px;
+}
+
+.skill-area{
+  padding-bottom: 30px;
+}
+
+.skill-area h4{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.skill-area h5{
+  padding-bottom: 8px;
+  color: #E2A213;
+}
+
+.skill-area button{
+  margin-top:20px;
 }

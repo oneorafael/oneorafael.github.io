@@ -1,126 +1,128 @@
-.banner-header{
-  background-image: url(https://i.imgur.com/eCBFcIe.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #FFFFFF;
-  padding-top: 320px;
-  padding-bottom: 300px;
+
+/*navbar*/
+/*navbar blog custom*/
+.navbar title a:link {
+  color: #F78972;
+}
+.navbar title a:hover {
+  color: #F78972;
+}
+.navbar title a:visited {
+  color: #F78972;
+}
+
+/*Title-area*/
+.title-area h2{
+  margin-top: 20px;
+  color: #403F3F;
+}
+
+.divisor{
+  margin-top: -8px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 5px;
+  background: #403F3F;
+}
+
+.title-area p{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title-area a:link {
+  color: #707070;
+  font-size: 23px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.title-area a:hover {
+  color: #F78972;
+  font-size: 23px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.title-area a:visited {
+  color: #707070;
+  font-size: 23px;
+  margin-left: 5px;
+  text-decoration: none;
 }
 
 /*box-area*/
 .box-content{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
+  display: flex;
 }
-
 .box{
-  width: 300px;
-  height: 300px;
-  border: 5px solid #F4EFEF;
+  width: auto;
+  height: 121px;
+  border: 5px solid #403F3F;
   border-radius: 15px;
   margin: 45px auto;
-  box-shadow: 0px 3px 6px 0.3px #F4EFEF;
-
+  box-shadow: 0px 3px 6px 0.3px #403F3F;
+  background: #403F3F;
 }
-
-.box:hover{
-  width: 350px;
-  transition:1s;
+.box-custom{
+  width: auto;
+  height: 121px;
+  border: 5px solid #F78972;
+  border-radius: 15px;
+  margin: 45px auto;
+  box-shadow: 0px 3px 6px 0.3px #F78972;
+  background: #F78972;
 }
-
 .box h1{
   text-align: center;
-  margin: 120px auto;
+  margin: 40px;
   font-size: 20px;
-
 }
-
-a:link {
-    text-decoration: none;
-		color: black;
+.box-custom h1{
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
 }
-
-a:hover{
-	  text-decoration: none;
-		color: #708090;
-}
-
-a:visited{
+.box a:link, .box a:visited {
+  color: #F78972;
   text-decoration: none;
-  color: black;
+}
+.box a:hover {
+  color: #BC7465;
+}
+.box-custom a:link, .box-custom a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.box-custom a:hover {
+  color: #DEDADA;
 }
 
-.banner-x{
-  background-image: url(https://i.imgur.com/sLmeymv.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
-.resume-preview{
-  padding-top: 50px;
-  padding-bottom: 115px;
-}
-.resume-preview h3{
-  padding-bottom: 40px;
-}
-
-.resume-preview p{
-  padding-top: 60px;
-}
-
-.fa{
-font-size: 33px;
-width: 80px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-color: #708090;
-}
-
-.footer{
-  padding-top:10px;
-  background-color: #272727;
-  color: #FFF;
-  font-size: 14px;
-
-}
-
+/*resume area*/
 
 .bioarea{
-  padding-top: 20px;
-  padding-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
   height: 100%;
 }
 
-.bioarea h1{
-  padding-bottom: 45px;
-}
 
 .resume-text-area{
   padding-top: 20px;
 }
 
-.skill-area{
-  padding-bottom: 30px;
-}
+/*footer*/
 
-.skill-area h4{
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top:10px;
+  background-color: #272727;
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
 
-.skill-area h5{
-  padding-bottom: 8px;
-  color: #E2A213;
-}
-
-.skill-area button{
-  margin-top:20px;
 }

@@ -103,7 +103,7 @@
 
 .bioarea{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   width: 100%;
   height: 100%;
 }
@@ -112,7 +112,14 @@
 .resume-text-area{
   padding-top: 20px;
 }
-
+.btncustom :hover  {
+  background: #F78972
+  color: #FFFFFF
+}
+.btncustom :visited  {
+  background: #F78972
+  color: #FFFFFF
+}
 /*footer*/
 
 .footer{

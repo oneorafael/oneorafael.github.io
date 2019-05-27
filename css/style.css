@@ -118,3 +118,17 @@ footer p{
     color: white;
     margin-top: 10px;
 }
+
+.custom-card{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.custom-card h5 {
+    text-align: center;
+}
+
+.a-align{
+    text-align: center;
+}

@@ -1,106 +1,78 @@
 <!doctype html>
 <html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Hello, world!</title>
-</head>
-
-<body>
-  <!-- navbar -->
-  <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light-50">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://medium.com/oneorafael"><span style="color:coral">Blog</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-  <!-- title & focus area -->
-
-  <section class="title">
-    <div class="container">
-
-      <h1>Portfolio</h1>
-      <div class="divisor"></div>
-      <a href="https://www.instagram.com/oneorafael/" class="fa fa-instagram"></a>
-      <a href="https://www.github.com/oneorafael" class="fa fa-github"></a>
-      <a href="https://www.linkedin.com/in/oneorafael" class="fa fa-linkedin"></a>
-      
-    </div>
-  </section>
-
-  <section class="Navgation-tables">
-    <div class="container">
-        <div class="row">
-            <div class="card custom-card" style="width: 25rem;">
-                <img src="https://i.imgur.com/mmvPgQj.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Book Register</h5>
-                  <p class="card-text">app: registrar os livros que você leu</p>
-                    <div class="a-align">
-                        <a href="https://github.com/oneorafael/MyBooksApp">github</a> 
-                    </div> 
-                </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <section class="bg">
+      <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light-50">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfólio<span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
               </div>
+            </nav>
+      </div> 
+    </section> <!--/navbar-->
+    
+    <section class="portfolio-banner">
+      <div class="container">
+        <div class="col-md-12">
+            <h1>&lt;/Portfólio&gt;</h1>
+        </div>
+      </div>
+    </section> <!--/dev-banner-->
 
-              <div class="card custom-card" style="width: 25rem;">
-                  <img src="https://i.imgur.com/AvCsmRz.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">GIF Finder</h5>
-                    <p class="card-text">App: busca de gifs no site da giphy</p>
-                    <div class="a-align">
-                        <a href="https://github.com/oneorafael/gif_finder">github</a>
-                    </div>
+    <section class="posts-area">
+        <div class="container">
+            <div class="row">
 
-                  </div>
-                </div>
+                    <div class="card" style="width: 35rem;">
+                        <a href="https://github.com/oneorafael/MyBooksApp">
+                            <img src="https://i.imgur.com/mmvPgQj.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">app: registrar os livros que você leu</p>
+                            </div>
+                        </a>
+                      </div>
 
-        </div>  
-    </div>
+                      <div class="card" style="width: 35rem;">
+                          <a href="https://github.com/oneorafael/gif_finder">
+                              <img src="https://i.imgur.com/AvCsmRz.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">App: busca de gifs no site da giphy</p>
+                              </div>
+                          </a>
+                        </div>        
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+  <footer>
+    <p>Rafael Oliveira - 2019 Todos Os Direitos Reservados</p>
+  </footer>
 
-  </section>
-      <!--footer-->
-      <footer>
-       <div class="container">
-          <p>Rafael Oliveira - 2019 Todos os direitos reservados</p>
-       </div>
-      </footer>
-
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

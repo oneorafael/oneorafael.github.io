@@ -1,0 +1,97 @@
+$light-color: #D5D5D5;
+$dark-color: #2B2B2B;
+
+.brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.menu-config {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h1{
+    color: $dark-color;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18ps;
+    text-align: justify;
+}
+
+.banner-area{
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.box {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.box p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.first {
+    background-color: $dark-color;
+
+}
+
+
+
+/* The sidebar menu */
+.sidenav {
+    // height: 100%; /* Full-height: remove this if you want "auto" height */
+    // width: 70px; /* Set the width of the sidebar */
+    // position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    // z-index: 1; /* Stay on top */
+    // // top: 0; /* Stay at the top */
+    // right: 0;
+    // background-color: $dark-color; /* Black */
+    // overflow-x: hidden; /* Disable horizontal scroll */
+    // padding-top: 20px;
+   text-align: unset;
+    margin-top: 100px;
+    height: 100%;
+    width: 100px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 10px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: $dark-color;
+  }
+
+
+  .darkmode--activated p, .darkmode--activated li , .darkmode--activated h1{
+    color: #ffffff;
+  }
+  
+  .button {
+    isolation: isolate;
+  }
+  
+  .darkmode--activated .logo {
+    mix-blend-mode: difference;
+  }

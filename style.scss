@@ -5,6 +5,7 @@
     }
 
     h3 {
+        margin-top:10px;
         margin-bottom: 10px;
     }
     
@@ -24,9 +25,8 @@
         margin: auto;
     }   
 .destak-area{
-
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
     text-align: center;
 }
 .icon {
@@ -69,4 +69,10 @@
         background-color: transparent;
         text-decoration: underline;
       }
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
 }

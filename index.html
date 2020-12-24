@@ -11,79 +11,69 @@
     <title>rolvr - Index</title>
   </head>
   <body>
+   
+    <!--NavBar-->
 
-<div class="container-expanded">
-          <!--Principal-->
-          <div class="container-fluid content">
-            <div class="col-sm-12">
-                <div class="destak-area">
-                    <h1>Rafael Oliveira</h1>
-                    <h4>Desenvolvedor iOS</h4>
-                </div>
-            </div>
-          
-          <!--/Principal-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">/rolvr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfólio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/NavBar-->
+    <div class="container">
+          <!--Banner-Area-->
+    <h1>Developer</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy </br>eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </br>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</br> gubergren, no sea takimata sanctus est 
+    </p>
+    <div class="row">
+      <div class="card-banner">
+        <h4>Swift</h4>
+      </div>
+      <div class="card-banner">
+        <h4>UI/UX</h4>
+      </div>
+      
+    </div>
+    <!--/Banner-Area-->
 
-          <!-- Working-on-area-->
-          <div class="working-on">
-            <h3>Em Desenvolvimento</h3>
-            <div class="col-sm-12">
-              <div class="row">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="148" viewBox="0 0 148 148">
-                  <defs>
-                    <filter id="Retângulo_1" x="0" y="0" width="148" height="148" filterUnits="userSpaceOnUse">
-                      <feOffset dy="3" input="SourceAlpha"/>
-                      <feGaussianBlur stdDeviation="3" result="blur"/>
-                      <feFlood flood-opacity="0.161"/>
-                      <feComposite operator="in" in2="blur"/>
-                      <feComposite in="SourceGraphic"/>
-                    </filter>
-                  </defs>
-                  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Retângulo_1)">
-                    <g id="Retângulo_1-2" data-name="Retângulo 1" transform="translate(9 6)" fill="#fff" stroke="#707070" stroke-width="0.2">
-                      <rect width="130" height="130" rx="9" stroke="none"/>
-                      <rect x="0.1" y="0.1" width="129.8" height="129.8" rx="8.9" fill="none"/>
-                    </g>
-                  </g>
-                </svg>
-                
-                <div class="col-sm-12">
-                    <h3>Bimo</h4>
-                    <p>Tenha mais clareza<br> 
-                        sobre quanto você<br>
-                        Gasta em serviços.</p>        
-                </div>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="84" viewBox="0 0 284 84">
-                  <image id="flag_2x" data-name="flag@2x" width="284" height="84" xlink:href="data:image/png;base64,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"/>
-                </svg>  
-                
-              </div>
-            </div>
-          </div>
+    <!--Part3-Area-->
+    <div class="container card">
+      <div class="row">
+        <!--Workin on-->
+      <div class="col-md-6">
+        <h3>Projeto em Andamento</h3>
 
-          <!--Bio-area-->
-          <div class="col-sm-12">
-              <div class="bio">
-                <h3> Quem Sou</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-                  labore et dolore magna aliquyam erat, sed diam 
-                  voluptua. 
-                  At vero eos et accusam et justo duo 
-                  dolores et ea rebum. Stet clita kasd gubergren, no 
-                  sea takimata sanctus est Lorem ipsum dolor sit 
-                  amet.</p>
-  
-                  <a href="http://www.github.com/oneorafael">github</a>
-                  <a href="http://www.github.com/oneorafael">LinkedIn</a>
-                  <a href="http://www.github.com/oneorafael">Email</a>
-              </div>
-          </div>
-        </div> 
-</div>
-<footer>
-  <p>2021 ®  Rafael Oliveira - Todos os direitos reservados
-  </p>
-</footer>
+      </div>
+      <!--/Workin on-->
+      <!--Bio-->
+      <div class="col-md-6">
+        <h3>Rafael Oliveira</h3>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </br> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </br>
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</br> sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur </p>
+      </div>
+      <!--/Bio-->
+      </div>
+    </div>
+    <!--/Part3-Area-->
+    </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

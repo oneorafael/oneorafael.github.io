@@ -2,6 +2,13 @@ body {
   background-color: #000000;
 }
 
+.navbar-brand {
+  font-family: "Sans-serif", "Helvetica";
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+
 .bg-navbar {
   background: #050711;
 }
@@ -47,13 +54,6 @@ h3 {
 
 h1 {
   color: #ffffff;
-  font-size: 100px;
-}
-
-.navbar-brand {
-  font-family: "Sans-serif", "Helvetica";
-  color: white;
-  font-size: 30px;
-  margin: 0px;
+  font-size: 80px;
 }
 /*# sourceMappingURL=style.css.map */

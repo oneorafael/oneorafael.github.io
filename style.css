@@ -22,6 +22,8 @@ body {
   padding: 50px;
   margin-bottom: 20px;
   border-radius: 9px;
+  width: 20px;
+  height: 20px;
 }
 
 .card {
@@ -34,6 +36,20 @@ body {
   padding: 50px;
   margin-bottom: 20px;
   border-radius: 9px;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+}
+
+.card h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.working {
+  margin-bottom: 30px;
 }
 
 .card-banner {
@@ -49,6 +65,27 @@ body {
   padding-right: 50px;
   margin: 10px;
   border-radius: 9px;
+}
+
+.bio a:link {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.bio a:hover {
+  color: #707070;
+  font-size: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.bio a:visited {
+  color: #707070;
+  font-size: 30px;
+  margin-left: 20px;
+  text-decoration: none;
 }
 
 p {

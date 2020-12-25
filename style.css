@@ -59,12 +59,16 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #070A17;
-  padding-top: 150px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
   margin: 10px;
   border-radius: 9px;
+}
+
+.card-banner h4 {
+  margin-top: 30px;
 }
 
 .bio a:link {

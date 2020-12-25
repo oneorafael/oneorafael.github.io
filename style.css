@@ -65,6 +65,7 @@ body {
   padding-right: 50px;
   margin: 10px;
   border-radius: 9px;
+  text-align: center;
 }
 
 .card-banner h4 {
@@ -90,6 +91,12 @@ body {
   font-size: 30px;
   margin-left: 20px;
   text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: white;
 }
 
 p {

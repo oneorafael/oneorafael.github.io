@@ -22,6 +22,16 @@ body {
     margin-top: 50px;
 }
 
+.main-text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 550px;
+    background: rgba(10, 10, 10);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
 .projects-area{
     margin-top: 160px;
     background: #2D2D2D;
@@ -35,20 +45,34 @@ body {
 
 .projects-area a:link, a:visited  {
     padding: 10px 20px 10px 20px;
-    border: 2px solid black;
+    border: 1px solid rgb(68, 68, 68);
     border-radius: 20px;
     color: black;
     text-decoration: none;
 }
 
-
+.project-type {
+    font-size: 13px;
+    font-weight: 500;
+}
 .card{
    background-color: #EAEAEA;
 }
 
+
+
 .card a:link, a:visited{
 text-decoration: none;
 color: blue;
+}
+
+.avatar-img{
+    margin-top: 30px;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+
 }
 
 .bioandskill h3{

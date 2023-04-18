@@ -34,13 +34,14 @@ body {
 
 .projects-area{
     margin-top: 160px;
-    background: #2D2D2D;
+    background: white;
 }
 
 .projects-area h2{
-    color: white;
+    color: black;
     padding-top: 20px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .projects-area a:link, a:visited  {
